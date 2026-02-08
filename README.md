@@ -1,16 +1,42 @@
-# React + Vite
+# LifeFit Simulator 🌍💡
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+LifeFit Simulator is a web-based simulation platform that helps users explore the question:  
+**“What if I lived here?”**
 
-Currently, two official plugins are available:
+By combining location data, lifestyle preferences, and scoring logic, the app provides a comparative **LifeFit Score** to help users understand how well a city fits their lifestyle.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 🚀 Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- 🌆 **City Search**
+  - Search and select cities using external location APIs
+- 👤 **User Profile**
+  - Input personal preferences such as lifestyle, income range, and priorities
+- 📊 **LifeFit Score**
+  - Calculates an overall suitability score for a city
+- 🧠 **Decision Cards**
+  - Breaks down scores into understandable insights
+- ⚡ **Fast & Responsive UI**
+  - Built with modern frontend tools for smooth performance
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠 Tech Stack
+
+### Frontend
+- **React** (with TypeScript)
+- **Vite** – fast build tool
+- **Tailwind CSS** – utility-first styling
+
+### APIs
+- Location & city data APIs (e.g., Teleport or similar public APIs)
+
+### Tooling
+- ESLint – code quality
+- PostCSS & Autoprefixer – CSS processing
+
+---
+
+## 📁 Project Structure
+
